@@ -19,7 +19,7 @@ namespace CShaprLib
             List<string> lines = File.ReadAllLines(@"C:\try\myfile.txt").ToList();
             for (int i = 0; i < lines.Count; i++)
             {
-                if( i % 2 == 0)
+                //if( i % 2 == 0)
                     output.Add(lines[i]);
             }
             return output;
